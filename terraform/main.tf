@@ -28,7 +28,7 @@ data "aws_ami" "ubuntu" {
     values = ["hvm"]
   }
 
-  owners = ["137112412989"]
+  owners = ["529088253090"]
 }
 
 resource "aws_security_group" "allow_access" {
